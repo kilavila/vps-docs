@@ -30,7 +30,7 @@ It's recommended to be familiar with Bash, GPG and chattr before using VPS.
 
 Written in `Bash`, VPS provides a lightweight, flexible, and highly customizable solution for storing and retrieving your passwords.
 With VPS, you can rest assured that your sensitive information is safe and easily accessible, whenever and wherever you need it.
-This documentation will guide you through the [installation](/documentation/getting-started/installation), [configuration](/documentation/getting-started/configuration), and [usage](/documentation/getting-started/usage) of VPS, helping you to get the most out of this powerful password manager.
+This documentation will guide you through the [installation](/documentation/installation), [configuration](/documentation/configuration), and [usage](/documentation/usage) of VPS, helping you to get the most out of this powerful password manager.
 
 :::warning[Data backup]
 Always create backups of both VPS and GPG!<br>

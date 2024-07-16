@@ -1,7 +1,3 @@
-<svelte:head>
-	<link rel="stylesheet" type="text/css" href="/app.css">
-</svelte:head>
-
 <div slot="hero-image" class="hide">
 	<span>VPS</span>
 	<img src="/sveltepress.svg" alt="Logo" />

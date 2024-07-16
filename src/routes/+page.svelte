@@ -4,9 +4,7 @@
 </div>
 
 <div class="container">
-	<p>
-		Securely store your passwords! GnuPG encrypted and chattr locked.
-	</p>
+	<p>Securely store your passwords! GnuPG encrypted and chattr locked.</p>
 	<div>
 		<img
 			src="/vps-unlocked.png"
@@ -15,11 +13,7 @@
 		/>
 	</div>
 	<div>
-		<img
-			src="/vps-locked.png"
-			alt="Locked password store"
-			title="Locked"
-		/>
+		<img src="/vps-locked.png" alt="Locked password store" title="Locked" />
 	</div>
 </div>
 
@@ -36,8 +30,8 @@
 		gap: 1%;
 
 		& > p {
-				width: 100%;
-			}
+			width: 100%;
+		}
 
 		& > div {
 			width: 49.5%;

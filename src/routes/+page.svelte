@@ -4,7 +4,10 @@
 </div>
 
 <div class="container">
-	<p>Securely store your passwords! GnuPG encrypted and chattr locked.</p>
+	<p>
+		Lightweight and flexible open-source password store written in bash!<br>
+		Securely store your passwords! GnuPG encrypted and chattr locked.
+	</p>
 	<div>
 		<img
 			src="/vps-unlocked.png"
@@ -22,6 +25,7 @@
 		display: none;
 	}
 	.container {
+		max-width: 1500px;
 		margin: 0 auto;
 		display: flex;
 		flex-direction: row;

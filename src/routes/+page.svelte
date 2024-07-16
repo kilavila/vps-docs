@@ -1,5 +1,5 @@
 <svelte:head>
-	<link rel="stylesheet" href="../app.css">
+	<link rel="stylesheet" type="text/css" href="/app.css">
 </svelte:head>
 
 <div slot="hero-image" class="hide">

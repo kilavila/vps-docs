@@ -39,8 +39,6 @@ If you lose your private GPG key, your passwords can't be recovered.
 
 ## Easily customizable
 
-Check out the [customization page](/documentation/customization/) if you need pointers on how to make VPS your own!
-
 ```bash ln
 #!/bin/bash
 

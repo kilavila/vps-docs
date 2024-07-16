@@ -34,14 +34,6 @@ const config = defineConfig({
 								},
 							]
 						},
-						// {
-						// 	title: 'Customization',
-						// 	to: '/documentation/customization/'
-						// },
-						// {
-						// 	title: 'Issues and bugs',
-						// 	to: '/documentation/issues/'
-						// },
 					]
 				},
 				github: 'https://github.com/kilavila',

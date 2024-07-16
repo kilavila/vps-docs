@@ -3,16 +3,16 @@
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
 	],
-	"/documentation": [
+	"/documentation/configuration": [
 		"src/routes/+layout.js"
 	],
-	"/documentation/getting-started/configuration": [
+	"/documentation/installation": [
 		"src/routes/+layout.js"
 	],
-	"/documentation/getting-started/installation": [
+	"/documentation/introduction": [
 		"src/routes/+layout.js"
 	],
-	"/documentation/getting-started/usage": [
+	"/documentation/usage": [
 		"src/routes/+layout.js"
 	]
 }

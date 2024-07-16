@@ -1,7 +1,7 @@
 ---
-title: Documentation
+title: Introduction
 description: Vilath Password Store documentation intro
-lastUpdate: 2024/07/16 05:45
+lastUpdate: 2024/07/16 15:10
 ---
 
 <img
@@ -39,19 +39,20 @@ If you lose your private GPG key, your passwords can't be recovered.
 
 ## Easily customizable
 
-```bash ln
+```bash ln title=".bin/vilath"
 #!/bin/bash
 
 USER=$(whoami)
 DIR="/home/$USER/.vilath"
 
-source "$DIR/.bin/colors" // [svp! !!:7]
+source "$DIR/.bin/colors" // [svp! !!:8]
 source "$DIR/.bin/decrypt"
+source "$DIR/.bin/dmenu" # easy to extend and customize // [svp! ++]
 source "$DIR/.bin/edit"
 source "$DIR/.bin/encrypt"
 source "$DIR/.bin/initialize"
 source "$DIR/.bin/generate"
-source "$DIR/.bin/list"
+source "$DIR/.bin/list" // [svp! hl]
 
 CHATTR=$(lsattr -dR "$DIR" | awk '{print $1}')
 if [[ "$CHATTR" == *"i"* ]]; then

@@ -7,30 +7,32 @@ const config = defineConfig({
 		sveltepress({
 			theme: defaultTheme({
 				navbar: [
-					// Add your navbar configs here
 					{
 						title: 'Documentation',
-						to: '/documentation/'
+						to: '/documentation/introduction/'
 					}
 				],
 				sidebar: {
 					'documentation': [
 						{
 							title: 'Getting started',
-							to: '/documentation/getting-started/',
 							collapsible: true,
 							items: [
 								{
+									title: 'Introduction',
+									to: '/documentation/introduction/',
+								},
+								{
 									title: 'Installation',
-									to: '/documentation/getting-started/installation/',
+									to: '/documentation/installation/',
 								},
 								{
 									title: 'Configuration',
-									to: '/documentation/getting-started/configuration/',
+									to: '/documentation/configuration/',
 								},
 								{
 									title: 'Usage',
-									to: '/documentation/getting-started/usage/',
+									to: '/documentation/usage/',
 								},
 							]
 						},

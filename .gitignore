@@ -1,0 +1,33 @@
+# node_modules directory
+node_modules/
+
+# Compiled files
+.svelte-cache/
+.svelte-compiled/
+compiled/
+
+# Debug files
+*.d.ts
+*.js.map
+*.js.lto
+
+# Build artifacts
+dist/
+build/
+
+# Other files
+*.swp
+*.swo
+*.log
+*.logrotate
+
+# Temporary files
+*.tmp
+*.tmp.json
+*.tmp.js
+
+# Git directory
+.git/
+
+# Git file
+.git

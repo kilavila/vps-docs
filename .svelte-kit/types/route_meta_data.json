@@ -1,0 +1,18 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/documentation": [
+		"src/routes/+layout.js"
+	],
+	"/documentation/getting-started/configuration": [
+		"src/routes/+layout.js"
+	],
+	"/documentation/getting-started/installation": [
+		"src/routes/+layout.js"
+	],
+	"/documentation/getting-started/usage": [
+		"src/routes/+layout.js"
+	]
+}

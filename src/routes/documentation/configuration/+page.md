@@ -4,8 +4,6 @@ description: Vilath Password Store configuration documentation
 lastUpdate: 2024/07/18 05:36
 ---
 
-# Configuration
-
 Configuring VPS is super simple, first we need GPG keys and then we will tell VPS to use our key.
 
 :::tip[Already have GPG keys?]

@@ -4,8 +4,6 @@ description: Vilath Password Store usage documentation
 lastUpdate: 2024/07/18 05:36
 ---
 
-# Usage
-
 :::tip[Lock/Unlock]
 Use `vps lock` and `vps unlock` followed by your sudo password.<br>
 This prevents deletion and editing files.<br>

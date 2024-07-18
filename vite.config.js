@@ -38,7 +38,7 @@ const config = defineConfig({
 						},
 					]
 				},
-				github: 'https://github.com/kilavila',
+				github: 'https://github.com/kilavila/.vilath',
 				logo: '/sveltepress.svg',
 			}),
 			siteConfig: {

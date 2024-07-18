@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: Vilath Password Store documentation intro
-lastUpdate: 2024/07/16 15:10
+lastUpdate: 2024/07/18 05:37
 ---
 
 <img
@@ -18,7 +18,7 @@ lastUpdate: 2024/07/16 15:10
     "
 />
 
-# Welcome to VPS (Vilath Password Store)
+# About VPS
 
 VPS is a secure, **command-line based password manager** designed to help you manage your sensitive information with ease.
 Built on a foundation of robust encryption and security, VPS utilizes the industry-standard `GPG` encryption protocol to protect your passwords and secrets.
@@ -32,12 +32,22 @@ Written in `Bash`, VPS provides a lightweight, flexible, and highly customizable
 With VPS, you can rest assured that your sensitive information is safe and easily accessible, whenever and wherever you need it.
 This documentation will guide you through the [installation](/documentation/installation), [configuration](/documentation/configuration), and [usage](/documentation/usage) of VPS, helping you to get the most out of this powerful password manager.
 
+## Warning
+
+:::note[Under development!]
+VPS is still under development and is not production ready yet!<br>
+You can test VPS with it's current limited functionality.
+:::
+
 :::warning[Data backup]
 Always create backups of both VPS and GPG!<br>
 If you lose your private GPG key, your passwords can't be recovered.
 :::
 
-## Easily customizable
+## Customization
+
+VPS is easy to customize, edit and extend if you're familiar with Bash.<br>
+A simple guide will be published here to make it easier to get started!
 
 ```bash ln title=".bin/vilath"
 #!/bin/bash

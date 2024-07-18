@@ -24,6 +24,9 @@ alias vps="~/.vilath/.bin/vps" // [svp! ++]
 echo "alias vps='~/.vilath/.bin/vps'" >> ~/.bashrc
 ```
 
+Either close and re-open your terminal, or run `exec bash`.<br>
+You can now use your alias anywhere in the shell, which we will do when we configure VPS.
+
 :::tip[Mac user?]
 Then you probably want to change `~/.bashrc` to `~/.zshrc`.<br>
 Run `which $SHELL` if you don't know which shell you are using.

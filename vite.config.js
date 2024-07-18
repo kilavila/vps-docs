@@ -34,7 +34,17 @@ const config = defineConfig({
 									title: 'Usage',
 									to: '/documentation/usage/',
 								},
-							]
+							],
+						},
+						{
+							title: 'Customization',
+							collapsible: true,
+							items: [
+								{
+									title: 'Theme',
+									to: '/documentation/theme/'
+								},
+							],
 						},
 					]
 				},

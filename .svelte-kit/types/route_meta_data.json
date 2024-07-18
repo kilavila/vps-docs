@@ -12,6 +12,9 @@
 	"/documentation/introduction": [
 		"src/routes/+layout.js"
 	],
+	"/documentation/theme": [
+		"src/routes/+layout.js"
+	],
 	"/documentation/usage": [
 		"src/routes/+layout.js"
 	]

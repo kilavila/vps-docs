@@ -42,21 +42,20 @@ When you f.ex edit a file through VPS, a temporary file is created which will be
 
 ## Generating password
 
-To generate a password you can run:
+Generating a random password using openssl, saving it in provided file and encrypting the file.
 
+Alias: `gen`
 ```sh
-vps generate PATH/FILE
-
-# OR
-
-vps gen PATH/FILE
+vps generate path/file [--copy,-c] | [--length[=password-length],-l[password-length]]
 ```
 
-VPS will generate a random **32 character password** by default using `openssl`:
+VPS will generate a **32 character password** by default if no password-length is provided:
 
 ```bash ln title="~/.vilath/.bin/generate"
-openssl rand -base64 32 | tr -dc 'a-zA-Z0-9!@#$%^&*()_+-={}:<>?[]|~'
+openssl rand -base64 ${PASSWORD_LENGTH} | tr -dc 'a-zA-Z0-9!@#$%^&*()_+-={}:<>?[]|~'
 ```
+
+### Hidden files
 
 To generate a hidden directory or file, you just need to append `.` in front of it.<br>
 So if you're REALLY into corn, then you can f.ex. run this command:
@@ -65,64 +64,66 @@ So if you're REALLY into corn, then you can f.ex. run this command:
 vps gen .super-secret-folder/cornhub.website
 ```
 
-## Listing passwords
+### Listing passwords
 
 Running `vps` without any command or parameters will list password files.<br>
 But if you want to pass any flags when listing files, you need to run one of the following aliases:
 
+Alias: `ls`
 ```sh
-vps list
-
-# OR
-
-vps ls
+vps list [--all,-a]
 ```
 
-VPS supports hidden files and directories, and to view these you need to pass the `--all` or `-a` flag.<br>
+VPS supports hidden files and directories, pass the `--all` flag to list hidden files.<br>
 By default these will not be shown by VPS.
 
-## Viewing password
+### Viewing password
 
+VPS will hide the password by default while viewing a file.<br>
+Pass the `--all` flag to view the password file without hiding the password.
+
+Alias: `cat`
 ```sh
-vps view PATH/FILE
-
-# OR
-
-vps cat PATH/FILE
+vps view path/file [--all,-a] | [--copy,-c]
 ```
 
-## Editing password
+## Managing passwords
+
+VPS will hide the password by default while editing a file.<br>
+Pass the `--all` flag to edit the password file without hiding the password.
 
 ```sh
-vps edit PATH/FILE
+vps edit path/file [--all,-a]
 ```
 
-## Move password
+### Move password
 
+Move or rename a file within the password store.
+
+Alias: `mv`
 ```sh
-vps move PATH/FILE
-
-# OR
-
-vps mv PATH/FILE
+vps move path/source_file path/target_file
 ```
 
-## Copy password
+### Copy password
 
+Copy a file within the password store.
+
+Alias: `cp`
 ```sh
-vps copy PATH/FILE
-
-# OR
-
-vps cp PATH/FILE
+vps copy path/source_file path/target_file
 ```
 
-## Delete password
+### Delete password
 
+Delete a file or directory within the password store.
+
+Alias: `rm`
 ```sh
 vps remove PATH/FILE
-
-# OR
-
-vps rm PATH/FILE
 ```
+
+:::warning[DELETION IS PERMANENT]
+Deleting a files is NOT reversible!<br>
+Even if you can restore the files, the content may be corrupted..
+:::

@@ -7,7 +7,7 @@ lastUpdate: 2024/07/18 05:36
 Configuring VPS is super simple, first we need GPG keys and then we will tell VPS to use our key.
 
 :::tip[Already have GPG keys?]
-If you already have GPG keys set up, you can skip to [VPS Configuration](#VPS-Configuration) at the bottom of the page.
+If you already have GPG keys set up, you can skip to *VPS Configuration* at the bottom of the page.
 :::
 
 ## GNU Privacy Guard

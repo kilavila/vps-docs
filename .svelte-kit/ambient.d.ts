@@ -28,8 +28,10 @@
 declare module '$env/static/private' {
 	export const LESSOPEN: string;
 	export const CONDA_PROMPT_MODIFIER: string;
+	export const NVIM: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
+	export const NVIM_LOG_FILE: string;
 	export const XDG_SESSION_TYPE: string;
 	export const FZF_DEFAULT_OPTS: string;
 	export const npm_node_execpath: string;
@@ -56,6 +58,7 @@ declare module '$env/static/private' {
 	export const ESLINT_USE_FLAT_CONFIG: string;
 	export const INFOPATH: string;
 	export const GTK_IM_MODULE: string;
+	export const MASON: string;
 	export const LOGNAME: string;
 	export const WINDOWID: string;
 	export const JOURNAL_STREAM: string;
@@ -93,10 +96,12 @@ declare module '$env/static/private' {
 	export const npm_package_version: string;
 	export const npm_lifecycle_event: string;
 	export const QT_ACCESSIBILITY: string;
+	export const MYVIMRC: string;
 	export const GDMSESSION: string;
 	export const KITTY_WINDOW_ID: string;
 	export const LESSCLOSE: string;
 	export const GPG_AGENT_INFO: string;
+	export const OSTYPE: string;
 	export const QT_IM_MODULE: string;
 	export const POSH_THEME: string;
 	export const npm_config_globalconfig: string;
@@ -108,7 +113,6 @@ declare module '$env/static/private' {
 	export const npm_config_global_prefix: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const npm_command: string;
-	export const MANPATH: string;
 	export const POSH_PID: string;
 	export const EDITOR: string;
 	export const INIT_CWD: string;
@@ -146,8 +150,10 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		LESSOPEN: string;
 		CONDA_PROMPT_MODIFIER: string;
+		NVIM: string;
 		USER: string;
 		npm_config_user_agent: string;
+		NVIM_LOG_FILE: string;
 		XDG_SESSION_TYPE: string;
 		FZF_DEFAULT_OPTS: string;
 		npm_node_execpath: string;
@@ -174,6 +180,7 @@ declare module '$env/dynamic/private' {
 		ESLINT_USE_FLAT_CONFIG: string;
 		INFOPATH: string;
 		GTK_IM_MODULE: string;
+		MASON: string;
 		LOGNAME: string;
 		WINDOWID: string;
 		JOURNAL_STREAM: string;
@@ -211,10 +218,12 @@ declare module '$env/dynamic/private' {
 		npm_package_version: string;
 		npm_lifecycle_event: string;
 		QT_ACCESSIBILITY: string;
+		MYVIMRC: string;
 		GDMSESSION: string;
 		KITTY_WINDOW_ID: string;
 		LESSCLOSE: string;
 		GPG_AGENT_INFO: string;
+		OSTYPE: string;
 		QT_IM_MODULE: string;
 		POSH_THEME: string;
 		npm_config_globalconfig: string;
@@ -226,7 +235,6 @@ declare module '$env/dynamic/private' {
 		npm_config_global_prefix: string;
 		HOMEBREW_REPOSITORY: string;
 		npm_command: string;
-		MANPATH: string;
 		POSH_PID: string;
 		EDITOR: string;
 		INIT_CWD: string;

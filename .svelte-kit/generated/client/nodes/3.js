@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/documentation/configuration/+page.md";
+export { default as component } from "../../../../src/routes/documentation/autocompletion/+page.md";

@@ -34,6 +34,10 @@ const config = defineConfig({
 									title: 'Usage',
 									to: '/documentation/usage/',
 								},
+								{
+									title: 'Autocompletion',
+									to: '/documentation/autocompletion/',
+								},
 							],
 						},
 						{

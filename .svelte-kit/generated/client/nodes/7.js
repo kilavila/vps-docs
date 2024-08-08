@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/documentation/usage/+page.md";
+export { default as component } from "../../../../src/routes/documentation/theme/+page.md";
